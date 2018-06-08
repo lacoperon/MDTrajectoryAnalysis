@@ -1,9 +1,11 @@
 name: md
 channels:
+  - ambermd
   - r
   - conda-forge
   - defaults
 dependencies:
+  - pytraj=2.0.2=py36_0
   - atomicwrites=1.1.5=py36_0
   - attrs=18.1.0=py_1
   - backcall=0.1.0=py_0
